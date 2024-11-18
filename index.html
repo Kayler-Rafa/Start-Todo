@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌟 Calendario</h1>
+  </header>
+  <main>
+    <div class="controls">
+      <button id="prev-month">&lt; Anterior </button>
+      <h2 id="current-month">Calendario </h2>
+      <button id="next-month"> Proximo &gt;</button>
+    </div>
+    <section class="calendar-container">
+      <div id="calendar"></div>
+    </section>
+    <section class="todo-container">
+      <h2 id="selected-date">Selecione um dia</h2>
+      <div class="todo-input">
+        <input type="text" id="todo-text" placeholder="Adicione uma tarefa" />
+        <button id="add-todo">Add</button>
+      </div>
+      <ul id="todo-list"></ul>
+    </section>
+  </main>
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>
